@@ -20,6 +20,7 @@ body {
   background: rgb(var(--background-rgb));
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
+  margin: 10px 10px;
 }
 
 @layer utilities {

@@ -1,3 +1,13 @@
-export default function AboutPage() {
-  return <h1>About Page</h1>;
+import React from 'react'
+import Nav from '../../components/common/nav'
+
+const page = () => {
+  return (
+    <div>
+        <Nav />
+        About Page
+    </div>
+  )
 }
+
+export default page
