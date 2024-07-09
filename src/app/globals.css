@@ -2,28 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+/* Colours
+dark blue #222831 (34,40,49)
+gray #393E46 (57,62,70)
+light blue #00ADB5 (0,173,181)
+white #EEEEEE (238,238,238) */
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-rgb: 34,40,49;
 }
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: rgb(var(--background-rgb));
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
 }
 
 @layer utilities {
