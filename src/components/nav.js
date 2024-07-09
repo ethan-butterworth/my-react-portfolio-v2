@@ -4,7 +4,10 @@ import Link from 'next/link'
 const nav = () => {
   return (
     <div>
-        <Link href='/about'>About</Link>
+        <nav>
+          <Link href="/">Home</Link>
+          <Link href="/about">About</Link>
+        </nav>
     </div>
   )
 }

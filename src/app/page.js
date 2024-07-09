@@ -1,9 +1,13 @@
-import Main from '../pages/main'
+import React from 'react'
+import Nav from '../components/nav'
 
-export default function Home() {
+const HomePage = () => {
   return (
-    <main>
-      <Main />
-    </main>
-  );
+    <div>
+      <Nav />
+      <h1>Home Page</h1>
+    </div>
+  )
 }
+
+export default HomePage;
