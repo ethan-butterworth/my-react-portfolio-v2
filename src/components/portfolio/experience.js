@@ -8,7 +8,6 @@ const imagepaths = [
     '/experience/javascript.svg',
     '/experience/next-js.svg',
     '/experience/node-js.svg',
-    '/experience/node-js.svg',
     '/experience/react.svg',
     '/experience/tailwind.svg',
     '/experience/vercel.svg',
