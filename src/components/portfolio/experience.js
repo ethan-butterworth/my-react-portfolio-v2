@@ -1,17 +1,17 @@
 import React from 'react'
 
 const imagepaths = [
-    '/experience/css-3.svg',
-    '/experience/figma.svg',
-    '/experience/github.svg',
     '/experience/html-5.svg',
+    '/experience/css-3.svg',
     '/experience/javascript.svg',
-    '/experience/next-js.svg',
     '/experience/node-js.svg',
     '/experience/react.svg',
+    '/experience/next-js.svg',
     '/experience/tailwind.svg',
-    '/experience/vercel.svg',
     '/experience/visual-studio-code.svg',
+    '/experience/github.svg',
+    '/experience/vercel.svg',
+    '/experience/figma.svg',
 ];
 
 const experience = () => {
