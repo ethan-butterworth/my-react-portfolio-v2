@@ -26,9 +26,9 @@ const text = () => {
 
   const renderSections = () => {
     return sections.map((section, index) => (
-      <div key={index}>
+      <div key={index} className='mb-10 last:mb-0'>
         <h2 className='text-2xl font-black mb-5'>{section.title}</h2>
-        <p className='mb-10 ml-5'>{section.content}</p>
+        <p className='ml-5'>{section.content}</p>
       </div>
     ));
   };
