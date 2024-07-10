@@ -32,3 +32,16 @@ body {
 a:hover {
   filter: invert(11%) sepia(31%) saturate(4875%) hue-rotate(140deg) brightness(70%) contrast(90%);
 }
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 5s linear infinite;
+}
