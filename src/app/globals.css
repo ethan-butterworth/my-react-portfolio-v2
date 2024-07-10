@@ -38,10 +38,10 @@ a:hover {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-322.5%);
   }
 }
 
 .animate-scroll {
-  animation: scroll 5s linear infinite;
+  animation: scroll 20s linear infinite;
 }
