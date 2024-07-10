@@ -30,5 +30,5 @@ body {
 }
 
 a:hover {
-  filter: invert(11%) sepia(31%) saturate(4875%) hue-rotate(140deg) brightness(90%) contrast(90%);
+  filter: invert(11%) sepia(31%) saturate(4875%) hue-rotate(140deg) brightness(70%) contrast(90%);
 }
