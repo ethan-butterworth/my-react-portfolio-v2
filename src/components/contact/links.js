@@ -20,8 +20,8 @@ const links = () => {
         return sections.map((section, index) => (
             <div key={index}>
                 <a href={section.link} target='_blank' className='flex mb-1'>
-                <img src={section.image} alt={section.title} className='w-8'></img>
-                <h2 className='text-2xl font-black ml-1'>{section.title}</h2>
+                <img src={section.image} alt={section.title} className='w-6'></img>
+                <h2 className='text-xl font-black ml-1'>{section.title}</h2>
                 </a>
             </div>
         ));
