@@ -38,7 +38,7 @@ a:hover {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-968px);
+    transform: translateX(-60.5rem); /* 5.5rem (size of each icon) x 11 (number of icons) */
   }
 }
 
