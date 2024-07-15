@@ -4,7 +4,7 @@ import Links from '../components/Index/links'
 import Bio from '../components/Index/bio'
 import Footer from '../components/common/footer'
 
-const HomePage = () => {
+const homepage = () => {
   return (
     <div>
       <Nav />
@@ -15,4 +15,4 @@ const HomePage = () => {
   )
 }
 
-export default HomePage;
+export default homepage;
