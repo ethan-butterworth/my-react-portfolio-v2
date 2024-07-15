@@ -16,7 +16,7 @@ const imagepaths = [
 
 const experience = () => {
   return (
-    <div className='overflow-hidden'>
+    <div className='overflow-hidden mb-10'>
       <div className='flex animate-scroll'>
         {imagepaths.concat(imagepaths).map((path, index) => (
         <img key={index} src={path} alt={`Image ${index + 1}`} className='bg-gray rounded p-1 m-1 w-20 h-20'/>
