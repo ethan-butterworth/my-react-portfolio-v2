@@ -19,7 +19,10 @@ const projects = () => {
     return sections.map((section, index) => (
       <div key={index} className='mb-5 rounded'>
         <img src={section.image} alt={section.title} className='bg-bright-blue p-1 rounded'></img>
-        <a href={section.link} target='_blank'><h2 className='text-2xl font-black ml-1'>{section.title}</h2></a>
+        <a href={section.link} target='_blank' className='flex justify-between ml-1 mr-1'>
+          <h2 className='text-2xl font-black italic'>{section.title}</h2>
+          <img src='/link.svg' className='w-8'></img>
+        </a>
       </div>
     ));
   };
