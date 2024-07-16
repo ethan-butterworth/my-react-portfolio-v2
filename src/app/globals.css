@@ -50,3 +50,14 @@ h2 {
   font-weight: 900;
   font-size: 1.5rem;
 }
+
+@media only screen and (min-width: 1024px) {
+  body {
+      height: 97.8vh;
+      font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+}

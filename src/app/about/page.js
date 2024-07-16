@@ -13,7 +13,7 @@ const page = () => {
           <Text />
         </div>
         <Footer />
-        <img src='/about-image.jpg' alt='Ethan during a hike overlooking the Peak District and Oldham in the distance' className='hidden'></img>
+        <img src='/about-image.jpg' alt='Ethan during a hike overlooking the Peak District and Oldham in the distance' className='max-lg:hidden'></img>
     </div>
   )
 }

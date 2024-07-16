@@ -6,10 +6,12 @@ import Footer from '../components/common/footer'
 
 const homepage = () => {
   return (
-    <div>
+    <div className='lg:flex flex-col justify-between h-full'>
       <Nav />
-      <Links />
-      <Bio />
+      <div className='lg:flex justify-between items-center'>
+        <Links />
+        <Bio />
+      </div>
       <Footer />
     </div>
   )

@@ -21,7 +21,7 @@ const links = () => {
             <div key={index}>
                 <a href={section.link} target='_blank' className='flex mb-1'>
                 <img src={section.image} alt={section.title} className='w-6'></img>
-                <h2 className='ml-1'>{section.title}</h2>
+                <h2 className='ml-1 text-lg'>{section.title}</h2>
                 </a>
             </div>
         ));
