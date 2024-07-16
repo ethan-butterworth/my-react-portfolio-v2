@@ -16,7 +16,6 @@ const page = () => {
           <img src='/about-image.jpg' alt='Ethan during a hike overlooking the Peak District and Oldham in the distance' className='max-lg:hidden h-full w-1/2 p-5'></img>
         </div>
         <Footer />
-        
     </div>
   )
 }

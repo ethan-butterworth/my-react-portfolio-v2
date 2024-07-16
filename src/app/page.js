@@ -6,7 +6,7 @@ import Footer from '../components/common/footer'
 
 const homepage = () => {
   return (
-    <div className='lg:flex flex-col justify-between h-full'>
+    <div className='lg:flex flex-col justify-between h-[97.8vh]'>
       <Nav />
       <div className='lg:flex justify-between items-center'>
         <Links />
