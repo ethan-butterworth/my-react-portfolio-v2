@@ -28,7 +28,7 @@ const projects = () => {
   };
 
   return (
-    <div className='flex'>
+    <div className='lg:flex'>
       {renderSections()}
     </div>
   )
