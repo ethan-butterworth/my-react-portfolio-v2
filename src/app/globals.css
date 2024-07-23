@@ -41,13 +41,27 @@ a:hover {
   }
 }
 
-.animate-scroll {
-  animation: scroll 25s linear infinite;
+
+
+@keyframes scroll-large {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-137.5rem); /* 10.5rem (size of each icon) x 11 (number of icons) */
+  }
 }
+
 
 h2 {
   font-weight: 900;
   font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 1023px) {
+  .animate-scroll {
+  animation: scroll 25s linear infinite;
+}
 }
 
 @media only screen and (min-width: 1024px) {
@@ -58,4 +72,8 @@ h2 {
   h2 {
     font-size: 2rem;
   }
+
+  .animate-scroll {
+    animation: scroll-large 40s linear infinite;
+}
 }
