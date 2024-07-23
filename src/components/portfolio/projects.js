@@ -3,15 +3,16 @@ import React from 'react'
 const projects = () => {
 
   const sections = [
+    /* Add new projects at the top so they display new to old */
+        {
+      title: 'First React Portfolio',
+      image: '/projects/my-first-react-portfolio-preview.png',
+      link: 'https://my-react-portfolio-olive.vercel.app/',
+    },
     {
       title: 'First Portfolio',
       image: '/projects/my-first-portfolio-preview.png',
       link: 'https://ethan-butterworth.github.io/my-portfolio/',
-    },
-    {
-      title: 'First React Portfolio',
-      image: '/projects/my-first-react-portfolio-preview.png',
-      link: 'https://my-react-portfolio-olive.vercel.app/',
     },
   ];
 
