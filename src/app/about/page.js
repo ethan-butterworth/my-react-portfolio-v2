@@ -7,15 +7,15 @@ import Footer from '../../components/common/footer'
 const page = () => {
   return (
     <div>
-        <AltNav />
-        <div className='flex items-center'>
-          <div className='flex'>
-            <ScrollBar />
-            <Text />
-          </div>
-          <img src='/about-image.jpg' alt='Ethan during a hike overlooking the Peak District and Oldham in the distance' className='max-lg:hidden h-full w-1/2 p-5'></img>
+      <AltNav />
+      <div className='flex items-center mx-5'>
+        <div className='flex'>
+          <ScrollBar />
+          <Text />
         </div>
-        <Footer />
+        <img src='/about-image.jpg' alt='Ethan during a hike overlooking the Peak District and Oldham in the distance' className='max-lg:hidden h-full w-1/2 p-5'></img>
+      </div>
+      <Footer />
     </div>
   )
 }

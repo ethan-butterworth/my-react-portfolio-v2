@@ -17,9 +17,9 @@ const projects = () => {
 
   const renderSections = () => {
     return sections.map((section, index) => (
-      <div key={index} className='mb-5 rounded'>
+      <div key={index} className='mb-5 mx-2 rounded lg:mx-10'>
         <img src={section.image} alt={section.title} className='bg-bright-blue p-1 rounded'></img>
-        <a href={section.link} target='_blank' className='flex justify-between ml-1 mr-1'>
+        <a href={section.link} target='_blank' className='flex justify-between mx-1'>
           <h2 className='italic'>{section.title}</h2>
           <img src='/link.svg' className='w-8'></img>
         </a>
@@ -28,7 +28,7 @@ const projects = () => {
   };
 
   return (
-    <div>
+    <div className='flex'>
       {renderSections()}
     </div>
   )

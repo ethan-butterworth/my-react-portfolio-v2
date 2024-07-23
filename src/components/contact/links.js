@@ -18,10 +18,10 @@ const links = () => {
 
     const renderSections = () => {
         return sections.map((section, index) => (
-            <div key={index}>
+            <div key={index} className='lg:mx-10'>
                 <a href={section.link} target='_blank' className='flex mb-1'>
                 <img src={section.image} alt={section.title} className='w-6'></img>
-                <h2 className='ml-1 text-lg'>{section.title}</h2>
+                <h2 className='ml-1 text-lg lg:text-2xl'>{section.title}</h2>
                 </a>
             </div>
         ));

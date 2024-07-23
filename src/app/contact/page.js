@@ -5,7 +5,7 @@ import Footer from '../../components/common/footer';
 
 const page = () => {
   return (
-    <div>
+    <div className='mx-2'>
         <AltNav />
         <Links />
         <Footer />
